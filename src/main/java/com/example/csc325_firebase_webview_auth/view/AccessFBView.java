@@ -61,11 +61,10 @@ public class AccessFBView implements Initializable {
         majorField.textProperty().bindBidirectional(accessDataViewModel.userMajorProperty());
         writeButton.disableProperty().bind(accessDataViewModel.isWritePossibleProperty().not());
 
-        // SETUP TABLEVIEW
-//        nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
-//        majorColumn.setCellValueFactory(new PropertyValueFactory<>("major"));
-//        ageColumn.setCellValueFactory(new PropertyValueFactory<>("age"));
-//        dataTable.setItems(listOfUsers);
+        nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
+        majorColumn.setCellValueFactory(new PropertyValueFactory<>("major"));
+        ageColumn.setCellValueFactory(new PropertyValueFactory<>("age"));
+        dataTable.setItems(listOfUsers);
     }
 
     @FXML

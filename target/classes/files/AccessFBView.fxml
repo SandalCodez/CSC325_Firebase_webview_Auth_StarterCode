@@ -3,7 +3,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox prefHeight="600.0" prefWidth="800.0" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_firebase_webview_auth.view.AccessFBView">
+<VBox prefHeight="600.0" prefWidth="800.0" spacing="10.0"
+      xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.csc325_firebase_webview_auth.view.AccessFBView">
     <children>
         <HBox spacing="10.0">
             <children>
@@ -18,9 +20,18 @@
                 <Button fx:id="writeButton" onAction="#addRecord" text="Add Record" />
                 <Button fx:id="readButton" onAction="#readRecord" text="Read Records" />
                 <Button onAction="#regRecord" text="Register User" />
+                <Button fx:id="uploadButton" onAction="#uploadFile" text="Upload Picture" />
                 <Button onAction="#switchToSecondary" text="Switch to WebView" />
             </children>
         </HBox>
+
+        <TableView fx:id="dataTable" prefHeight="300.0">
+            <columns>
+                <TableColumn fx:id="nameColumn" prefWidth="200.0" text="Name" />
+                <TableColumn fx:id="majorColumn" prefWidth="200.0" text="Major" />
+                <TableColumn fx:id="ageColumn" prefWidth="100.0" text="Age" />
+            </columns>
+        </TableView>
 
         <TextArea fx:id="outputField" prefHeight="100.0" />
     </children>
