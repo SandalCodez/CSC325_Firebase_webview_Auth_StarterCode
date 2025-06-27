@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0" spacing="20.0"
+      xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.csc325_firebase_webview_auth.view.MenuController">
+    <children>
+        <Label text="Main Menu" />
+        <Button onAction="#goToData" text="Manage Data" />
+        <Button onAction="#goToWeb" text="Web View" />
+        <Button onAction="#logout" text="Logout" />
+    </children>
+</VBox>
