@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="implemented different views and respective controllers">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="working through css, got table view to work again">
       <change beforePath="$PROJECT_DIR$/src/main/resources/files/AccessFBView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/AccessFBView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/style/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/views/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/login-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/views/mainmenu-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/mainmenu-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/views/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/register-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_firebase_webview_auth/view/AccessFBView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_firebase_webview_auth/view/AccessFBView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_firebase_webview_auth/view/WebContainerController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_firebase_webview_auth/view/WebContainerController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_firebase_webview_auth/view/WebContainerController$Bridge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_firebase_webview_auth/view/WebContainerController$Bridge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_firebase_webview_auth/view/WebContainerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_firebase_webview_auth/view/WebContainerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/AccessFBView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/AccessFBView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +74,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/csc325_firebase_webview_auth/viewmodel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\estos\IdeaProjects\CSC325_Firebase_webview_Auth_StarterCode\src\main\resources" />
       <recent name="C:\Users\estos\IdeaProjects\CSC325_Firebase_webview_Auth_StarterCode\src\main\resources\style" />
       <recent name="C:\Users\estos\IdeaProjects\CSC325_Firebase_webview_Auth_StarterCode\src\main\resources\views" />
       <recent name="C:\Users\estos\IdeaProjects\CSC325_Firebase_webview_Auth_StarterCode\src\main\resources\files" />
       <recent name="$PROJECT_DIR$/src/main/resources/files" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.csc325_firebase_webview_auth.viewmodel" />
@@ -175,7 +168,7 @@
       <workItem from="1710690942533" duration="7228000" />
       <workItem from="1710732741753" duration="608000" />
       <workItem from="1710733353801" duration="5503000" />
-      <workItem from="1750992689965" duration="6075000" />
+      <workItem from="1750992689965" duration="6454000" />
     </task>
     <task id="LOCAL-00001" summary="reduce Java version to 17">
       <option name="closed" value="true" />
@@ -225,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750997235002</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="working through css, got table view to work again">
+      <option name="closed" value="true" />
+      <created>1750999187962</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750999187962</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +253,7 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="gitignore implemented and connected to db, correctly this time" />
     <MESSAGE value="implemented different views and respective controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented different views and respective controllers" />
+    <MESSAGE value="working through css, got table view to work again" />
+    <option name="LAST_COMMIT_MESSAGE" value="working through css, got table view to work again" />
   </component>
 </project>
